@@ -1,0 +1,52 @@
+@media only screen and (min-width: 550px)
+{.footer__decor {
+    max-width: 390px;
+}}
+
+.footer__decor {
+    max-width: 554px !important;
+}
+
+.header__logo-link--tools {
+    background: url(../../../public/images/logo.svg) 0 0 no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    white-space: nowrap;
+    width: 21.5em;
+    height: 2.25em;
+}
+
+.offcanvas-end{
+    width: 18% !important;
+    background-color: #1e293d !important;
+}
+
+.dropdown-menu{
+    background-color: unset !important;
+    color: #fff !important;
+    width: 100% !important;
+}
+.btn.show ,.btn{
+    background-color: unset !important;
+    border: none !important;
+    color: #8db1dd !important;
+}
+
+.dropdown-item{
+    color: #8db1dd !important;
+    margin-top: 20px !important;
+    font-size: 1.1rem !important;
+}
+
+.dropdown-item:hover{
+    background-color: unset !important;
+    color: #fff !important;
+}
+.tools1{
+    background: #182030 !important;
+    color: #fff !important;
+}
+
+.btn-close{
+    color: #fff !important;
+}

@@ -1,0 +1,243 @@
+.footer {
+    padding: 70px;
+    background-color: #292d33;
+}
+
+footer {
+    display: block;
+}
+
+.footer__box {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer__row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin-top: -70px;
+}
+
+.footer__section {
+    margin-top: 70px;
+}
+
+.footer__section-title--style1 {
+    color: #f6ce55;
+}
+
+.footer__section-title {
+    transition: opacity .2s ease-in-out;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    /* color: #fff;
+    font-size: 18px; */
+    font-weight: 700;
+    line-height: 1.27778em;
+}
+
+.footer__section-title--style1:before {
+    background-color: rgba(246, 206, 85, .2);
+}
+
+.footer__section-title:before {
+    position: absolute;
+    right: -10px;
+    bottom: -6px;
+    left: -10px;
+    height: 14px;
+    content: "";
+}
+
+.footer__section-note {
+    color: #8e999b;
+    /* font-size: 18px; */
+    font-weight: 400;
+    line-height: 1.27778em;
+}
+
+.footer__section-title--style3 {
+    color: #ee5495;
+}
+
+.footer__section-title--style2 {
+    color: #8ecea8;
+}
+
+.footer__section-title--style3:before {
+    background-color: rgba(238, 84, 149, .2);
+}
+
+.footer__section-title--style2:before {
+    background-color: rgba(142, 206, 168, .2);
+}
+
+.footer__decor {
+    max-width: 554px;
+    padding-bottom: 5em;
+}
+
+.footer__decor {
+    /* display: -webkit-flex; */
+    display: flex;
+    /* -webkit-justify-content: space-between; */
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 5em;
+    /* font-size: 8px; */
+}
+
+.footer__decor-item--s1 {
+    background-color: #f6ce55;
+}
+
+.footer__decor-item {
+    position: relative;
+    width: 5em;
+    height: 5em;
+}
+
+.footer__decor-item--s1:before {
+    left: -100%;
+    background-color: #ee5495;
+}
+
+.footer__decor-item:before {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.footer__decor-item--s2:before {
+    left: 100%;
+    background-color: #9baed8;
+}
+
+.footer__decor-item--s2 {
+    margin-top: 10em;
+    background-color: #8ecea8;
+}
+
+footer {
+    display: block;
+}
+
+.footer {
+    padding: 90px 0;
+}
+
+.footer__box, .header__box {
+    max-width: 815px;
+}
+div {
+    display: block;
+}
+.footer__row {
+    margin-bottom: 108px;
+}
+
+.footer__section-title {
+    font-size: 16px;
+}
+.footer__section-title {
+    margin-bottom: 15px;
+}
+.footer__section-note {
+    font-size: 14px;
+}
+
+.footer__section:nth-child(1n) {
+    margin-right: 60px;
+    margin-left: 0;
+}
+
+
+.footer__section:nth-child(2) {
+    order: 1;
+}
+
+.footer__section:nth-child(3) {
+    order:2 ;
+}
+.footer__section:nth-child(4) {
+    order: 3;
+}
+
+.footer__section:nth-child(5) {
+    order: 4;
+}
+
+.footer__section:nth-child(3n) {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+
+.footer__section:first-child {
+    order: 0;
+}
+
+.footer__section {
+    /* -webkit-flex-grow: 0; */
+    flex-grow: 0;
+    /* -webkit-flex-shrink: 0; */
+    flex-shrink: 0;
+    /* -webkit-flex-basis: calc(33.3% - 40px); */
+    flex-basis: calc(33.3% - 40px);
+    max-width: calc(33.3% - 40px);
+    width: calc(33.3% - 40px);
+}
+
+.footer__decor-item--s2 {
+    margin-top: 5em;
+}
+
+.footer {
+    padding: 90px 0 140px !important;
+}
+
+
+@media only screen and (min-width: 992px)
+{.footer__decor {
+    max-width: 554px;
+    padding-bottom: 5em;
+}}
+
+@media only screen and (min-width: 768px)
+{.footer__decor {
+    /* max-width: 630px; */
+    font-size: 16px;
+}}
+
+@media only screen and (min-width: 550px)
+{.footer__decor {
+    max-width: 390px;
+}}
+
+@media only screen and (min-width: 768px)
+{.footer {
+    padding: 90px 0 140px;
+}}
+
+@media only screen and (min-width: 550px)
+{.footer {
+    padding: 90px 0;
+}}
+
+@media only screen and (min-width: 768px)
+{.footer {
+    padding: 90px 0 140px;
+}}
+
+@media only screen and (min-width: 550px)
+{.footer {
+    padding: 90px 0;
+}}

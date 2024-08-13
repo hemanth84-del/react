@@ -1,0 +1,100 @@
+@media only screen and (min-width: 550px)
+{.tariffs__title {
+    max-width: 375px;
+    margin-bottom: 2.34375em;
+}}
+
+.tariffs__title {
+    max-width: 375px;
+    margin-bottom: 2.34375em;
+}
+
+@media only screen and (min-width: 992px)
+{.tariffs__title {
+    margin-bottom: 4.53125em;
+    margin-bottom: 5em;
+}}
+
+.tariffs__title {
+    margin-bottom: 4.53125em;
+    margin-bottom: 5em;
+}
+
+@media only screen and (min-width: 550px)
+{.tariffs__title {
+    max-width: 375px;
+    margin-bottom: 2.34375em;
+}}
+
+.tariffs__title {
+    max-width: 375px;
+    margin-bottom: 2.34375em;
+}
+
+@media only screen and (min-width: 550px)
+{.tariffs__title:before {
+    left: 50%;
+    right: auto;
+    width: 100%;
+    max-width: 310px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}}
+
+.tariffs__title:before {
+    left: 50%;
+    right: auto;
+    width: 100%;
+    max-width: 310px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.tariffs__title {
+    position: relative;
+    max-width: 340px;
+    margin: 0 auto 6.5625em;
+    color: #292e34;
+    font-size: 25px;
+    line-height: 1.21875em;
+    text-align: center;
+    font-weight: 700;
+}
+
+.l-page {
+    background-color: #efefef !important;
+    font-family: Proxima Nova, Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4;
+    min-width: 380px;
+}
+
+.header--pricing .header__logo-note--b {
+    background: url(../../../public/images/logo-bm-b2.svg) 0 0 no-repeat;
+}
+
+.header__logo-note--m {
+    width: 14.1875em;
+    height: 3.1875em;
+    background: url(../../../public/images/logo-bm-m.svg) 0 0 no-repeat;
+}
+
+.price{
+        background: #182030 !important;
+        color: #fff !important;
+
+}
+
+.features-price__item-title{
+    margin-bottom: 0.27273em;
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: 1.22727em;
+}
+
+.features-price__item-note {
+    font-size: 17px !important;
+    font-weight: 400;
+    line-height: 1em;
+}
